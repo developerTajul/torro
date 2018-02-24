@@ -1,0 +1,491 @@
+body{
+	font-size:17px;
+	background-color:#f0f0f0;
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+} 
+
+.headerrow{
+	margin-top:1%;
+}
+.headerrow img{
+	max-width:60%;
+}
+.customer-service{
+	text-align:right;
+	font-weight:700;
+	font-size:200%;
+	color:#666;
+	line-height:1;
+}
+.customer-service span{
+	font-size:13px;
+	display:block;
+}
+.maincontent{
+	margin-top:1%;
+	background-color:#fff;
+	border:1px solid #ccc;
+	padding:3%;
+}
+.maincontent h1{
+	font-family: 'Just Another Hand', cursive;
+	font-size:500%;
+	text-align:center;
+	line-height:1;
+}
+.maincontent h1 span{
+	display:block;
+}
+
+.maincontent h2{
+	font-size:130%;
+	color:#ff6600;
+	text-align:Center;
+	font-weight:700;
+}
+img.greenarrow{
+	float:right;
+	margin-top:-17%;
+	margin-right:-15%;
+	position:relative;
+	z-index:10;
+}
+.maincontent .fundingfeatures{
+	border-top:1px dotted #ccc;
+	border-bottom:1px dotted #ccc;
+	margin-top:3%;
+}
+.maincontent .fundingfeatures ul{
+	list-style:none;
+	padding-left:0;
+	margin-top:3%;
+	
+}
+.maincontent .fundingfeatures ul li{
+	background:url(../imgn/greencheck.png) center left no-repeat;
+	height:28px;
+	padding-left:40px;
+	margin-bottom:10px;
+}
+.business-money-customer{
+	text-align:center;
+	margin-top:3%;
+}
+
+.business-money-customer img{
+	max-width:100%;
+}
+.form-wrap{
+	height:520px;
+	width:408px;
+	background:url(../imgn/formbackground.png) top center no-repeat;
+	background-size:contain;
+	padding:2% 3% 3% 3%;
+	
+}
+.form-wrap .input-wrap{
+	width:305px;
+	margin:0 auto;
+	padding-left:15px;
+}
+.form-wrap h3{
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	font-size:160%;
+	text-align:Center;
+	font-weight:700;
+	letter-spacing: -1px;
+	line-height:1;
+	margin-bottom:8%;
+}
+
+.formh3{
+	font-family: 'Just Another Hand', cursive;
+	font-size:500%;
+	text-align:center;
+	display:none;
+	line-height:1;
+}
+.form-wrap h3 span{
+	display:block;
+}
+@media (max-width: 604px) {
+	.headerrow{
+		text-align:center;
+	}
+	.customer-service{
+	text-align:center;
+	}
+	.greenarrow{
+		display:none;
+	}
+	.formh3{
+	display:block;
+}
+.form-wrap {
+	width:100%;
+margin: 0 auto;
+background-image:none;
+background-color:#0089CD;
+}
+	.leftcontent h1{
+		display:none;
+	}
+	.caralignright{
+		clear:both;
+		float:none;
+	}
+}
+@media (max-width: 536px) {
+	h1.formh3{
+	font-size:250%;
+}
+	
+}
+.styled-select select {
+   background: transparent;
+   width: 305px;
+   padding: 0 5px 5px 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none; 
+   }
+
+ .styled-select {
+ 
+  width: 285px;
+   height: 34px;
+   overflow: hidden;
+   background: url('../imgn/droparrow.jpg') no-repeat right #fff;
+   border: 0px solid #333;
+  color:#666;
+ margin-bottom:8%;
+   } 
+   
+   .bimage{
+	   float:right;
+	   margin-top:2%;
+	   margin-right:-2%;
+   }
+    .submit-button{
+		margin-top:9%;
+	}
+  .submit-button .btn-warning {
+    color: #FFF;
+    background-color: #FF6600;
+    border-color: #EEA236;
+	border: 1px solid transparent;
+border-radius: 0px;
+
+}
+   .submit-button button{
+	   font-size: 18px;
+	   font-weight:700;
+	  }
+   .submit-button span{
+	   display:block;
+	   font-size:11px;
+	   font-weight:400;
+   }
+   
+ @media (max-width: 604px) {
+	 .styled-select select {
+		 width: 270px;
+	 }
+	  .styled-select {
+		  width: 250px;
+	  }
+	 
+ }
+ 
+ 
+  @media (max-width: 361px) {
+	 .styled-select select {
+		 width: 250px;
+	 }
+	  .styled-select {
+		  width: 230px;
+	  }
+	 .submit-button button {
+    font-size: 15px;
+    font-weight: 700;
+	}
+ }
+ 
+ 
+  @media (max-width: 331px) {
+	 .styled-select select {
+		 width: 220px;
+	 }
+	  .styled-select {
+		  width: 200px;
+	  }
+	 .submit-button button {
+    font-size: 13px;
+    font-weight: 700;
+ }
+ } 
+ 
+   .priv{
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	
+}
+  .priv a {
+	  color:#fff;
+	  border-bottom:1px dotted #fff;
+  }
+   .fundingbadges{
+	   margin-top:5%;
+	   text-align:center;
+	   
+   }
+   .fundingbadges img{
+	   max-width:100%;
+   }
+   .carwrap{
+	max-width:100%;
+	
+}
+img.caralignright{
+	float:right;
+	position:relative;
+	z-index:10;
+	margin-top:-7%;
+}
+img.nomarg{
+	float:right;
+	position:relative;
+	z-index:10;
+	bottom:0;
+}
+.lb2{
+	background-image:url('../imgn/customer_service_background.jpg');
+	max-width:100%;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel-control.left {
+    background-image: none;
+    
+}
+.carousel-control.right {
+   background-image: none;
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.carousel-indicators {
+    position: relative;
+    bottom: 0;
+    left:0;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    list-style: none;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+   background-color: #777;
+    border: 0px solid #fff;
+    border-radius: 0px;
+}
+.carousel-indicators .active {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    background-color: #337ab7;
+}
+.control-box-wrap {
+	text-align:center;
+
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+.control-box-wrap a.btn-primary {
+	text-align:center;
+	margin-top:1%;
+}
+
+.carwrap h4{
+	padding-top:10%;
+	font-family: 'Lato', sans-serif;
+	color:#000;
+	font-size:160%;
+white-space: nowrap;
+	font-weight:700;
+	letter-spacing: -1px;
+	line-height:1;
+	
+}
+
+
+.name{
+	font-family: 'Just Another Hand', cursive;
+	font-size:150%;
+	font-weight:700;
+	line-height:1.1;
+}
+
+@media (max-width: 604px) {
+	
+	
+	.carwrap h4{
+	
+white-space: wrap;
+	
+	
+}
+	img.caralignright{
+		max-width:100%;
+	}
+	img.caralignright{
+		clear:both;
+		float:none;
+	}
+}
+.howtorroworks h3{
+
+	font-family: 'Lato', sans-serif;
+	color:#000;
+	font-size:180%;
+
+	font-weight:900;
+	letter-spacing: -1px;
+	line-height:1.3;
+	
+}
+.howtorroworks h3 img  {
+float:left;
+  margin-left:-10%;
+}
+
+.howtorroworks h4{
+	
+	font-family: 'Lato', sans-serif;
+	color:#000;
+	font-size:120%;
+
+	font-weight:700;
+	letter-spacing: -1px;
+	line-height:1;
+	
+}
+
+.howtorroworks ul{
+	padding:0;
+	list-style:none;
+	margin-top:8%;
+}
+.howtorroworks ul li{
+
+	padding-left:80px;
+	margin-bottom:4%;
+}
+.howtorroworks ul li.step1{
+	background:url(../imgn/step1.png) top left no-repeat;
+		height:75px;
+}
+.howtorroworks ul li.step2{
+	background:url(../imgn/step2.png) top left no-repeat;
+		height:75px;
+}
+.howtorroworks ul li.step3{
+	background:url(../imgn/step3.png) top left no-repeat;
+		height:75px;
+}
+.howtorroworks ul li span{
+	font-weight:700;
+	display:block;
+}
+@media (max-width: 415px) {
+	.howtorroworks ul li{
+
+	padding-left:80px;
+	margin-bottom:20%;
+	}
+}
+@media (max-width: 321px) {
+	.howtorroworks ul li{
+
+	padding-left:80px;
+	margin-bottom:30%;
+	}
+}
+.bottom-border{
+	margin:0;
+	padding:0;
+	text-align:center;
+	margin-bottom:2%;
+	
+}
+
+.bottom-border img{
+	max-width:100%;
+	vertical-align:top;
+}
+
+#loan-apply-bar {
+    margin-top: 2%;
+	margin-bottom:0px;
+    padding: 1.6% 0;
+   font-size:170%;
+	color:#000;
+    text-align: center;
+}
+
+#footer-content {
+   
+    text-align: center;
+    font-size: 15px;
+    padding: 1.6% 0;
+}
